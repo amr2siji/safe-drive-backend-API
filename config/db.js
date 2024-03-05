@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const connection = mongoose.createConnection('mongodb+srv://ammar:ammar123@vehicle.hsros5q.mongodb.net/').on('open',()=>{
+const connection = mongoose.createConnection('mongodb+srv://ammar:ammar123@vehicle.hsros5q.mongodb.net/SafeDrive').on('open',()=>{
    console.log("Mongo DB Connected")
 
 }).on('error',()=>{
